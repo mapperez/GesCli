@@ -7,9 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GraficasComponent implements OnInit {
 
+
+
+  DataLabels: string[] = [
+    "Download Sales",
+    "In-Store Sales",
+    "Mail-Order Sales"
+  ];
+  DataValues: number[] = [350, 450, 100];
+
+
+
+
   constructor() { }
 
   ngOnInit() {
   }
+
+
+
 
 }

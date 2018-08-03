@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-progresbar [valuenow]="MiValue"  ></app-progresbar>
+        <app-incrementador (cambioValor)="cambioChange($event)"  leyenda="Componente Uno" [valuenow]="20" > </app-incrementador>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+</div>
