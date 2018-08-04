@@ -1,5 +1,7 @@
 import { NgModule } from "@angular/core";
 import {FormsModule} from '@angular/forms'
+import { RouterModule } from "@angular/router";
+import {CommonModule} from '@angular/common'
 
 //Componentes Layout
 import { HeaderComponent } from "./layout/header/header.component";
@@ -13,12 +15,16 @@ import { DonutComponent } from './charts/donut/donut.component';
 
 
 
+
+
+
 // Componentes terceros
 import { ChartsModule } from 'ng2-charts';
 
+
 @NgModule({
   declarations: [HeaderComponent, SidebarComponent, BreadcrumsComponent,NotfoundComponent, ProgressComponent, ProgresbarComponent, IncrementadorComponent, DonutComponent],
-  imports: [FormsModule,ChartsModule],
+  imports: [CommonModule,FormsModule,ChartsModule,RouterModule],
   exports: [
     HeaderComponent,
     SidebarComponent,
