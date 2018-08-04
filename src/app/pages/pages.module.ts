@@ -11,6 +11,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { AccsetingComponent } from './accseting/accseting.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -23,7 +24,8 @@ import { AccsetingComponent } from './accseting/accseting.component';
     HomeComponent,
     DashboradComponent,
     GraficasComponent,
-    AccsetingComponent
+    AccsetingComponent,
+    RxjsComponent
   ],
   imports: [
     SharedModule,

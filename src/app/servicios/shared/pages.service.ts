@@ -12,7 +12,8 @@ export class PagesService {
       submenu: [
         {titulo: 'Dashboard',url: '/graficas'},
         {titulo: 'Registro',url: '/register'},
-        {titulo: 'Login',url: '/login'}
+        {titulo: 'Login',url: '/login'},
+        {titulo: 'rxjs',url: '/rxjs'}
       ]
     }
   ];
